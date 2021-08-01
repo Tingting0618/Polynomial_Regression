@@ -50,7 +50,7 @@ lin_reg.intercept_, lin_reg.coef_
 #### 1. Linear Regression Learning Curve
 
 - Adding new instances to the training set doesn’t make the average error much better. A straight line cannot do a good job modeling the data.
-- The data is underfitted. 
+- The data is under-fitted. 
 
 ![download](https://user-images.githubusercontent.com/44503223/127774022-8397b42d-2c4e-4d98-9993-c8663bb947d0.png)
 

@@ -4,7 +4,7 @@ A simple way to use a linear model to fit nonlinear data is to add powers of eac
 
 #### Content Includes:
 - Polynomial Regression: Add powers of each feature as new features
-- Learning curves: plots of the model’s performance on the training set and the validation set as a function of the training set size (or the training iteration).
+- Learning curves: Plots of the model’s performance on the training set and the validation set as a function of the training set size (or the training iteration).
 
 ## Learn More
 

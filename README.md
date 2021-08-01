@@ -47,6 +47,8 @@ lin_reg.intercept_, lin_reg.coef_
 
 ### Learning Curves:
 
+**Learning Curves** are used to anwser the question: How can you tell that your model is overfitting or underfitting the data?
+
 #### 1. Linear Regression Learning Curve
 
 - Adding new instances to the training set doesn’t make the average error much better. A straight line cannot do a good job modeling the data.

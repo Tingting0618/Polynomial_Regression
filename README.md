@@ -56,7 +56,7 @@ lin_reg.intercept_, lin_reg.coef_
 
 #### 2. Polynomial Regression (degree=2) Learning Curve
 
-- The error on the training data is much lower than with the Linear Regression model. 
+- The error on the training data is much lower than with the Linear Regression model, which indicates model fitting improvement. 
 
 ![download](https://user-images.githubusercontent.com/44503223/127774071-d1c5af6c-c1bc-4454-a5c0-2da6925aea86.png)
 

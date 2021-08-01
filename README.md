@@ -6,7 +6,7 @@ A simple way to use a linear model to fit nonlinear data is to add powers of eac
 - Polynomial Regression: Add powers of each feature as new features
 - Learning Curves: Plots of the model’s performance on the training set and the validation set as a function of the training set size (or the training iteration).
 
-### Procedures:
+### Polynomial Regression Procedures:
 
 #### 1. Simulate some random data
 
@@ -44,6 +44,21 @@ lin_reg.intercept_, lin_reg.coef_
 #### 4. Visualize the results
 
 ![download](https://user-images.githubusercontent.com/44503223/127773696-312ec265-04e3-4fe7-89d5-f6f853c2ea68.png)
+
+### Learning Curves:
+
+#### 1. Linear Regression Learning Curve
+
+- Adding new instances to the training set doesn’t make the average error much better. A straight line cannot do a good job modeling the data.
+- The data is underfitted. 
+
+![download](https://user-images.githubusercontent.com/44503223/127774022-8397b42d-2c4e-4d98-9993-c8663bb947d0.png)
+
+#### 2. Polynomial Regression (degree=2) Learning Curve
+
+- The error on the training data is much lower than with the Linear Regression model. 
+
+![download](https://user-images.githubusercontent.com/44503223/127774071-d1c5af6c-c1bc-4454-a5c0-2da6925aea86.png)
 
 ## Learn More
 
